@@ -50,6 +50,8 @@ int main() {
               }
 
   std::cout << "O algoritmo demorou [" << stats.time_us << "] microsegundos\n";
+  std::cout << "Fez [" << stats.comparisons << "] comparações\n";
+  std::cout << "Fez [" << stats.swaps << "] swaps\n";
   
   return 0;
 }

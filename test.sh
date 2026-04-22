@@ -1,4 +1,4 @@
 
 
-echo "10000" | ./randomN | ./gnomeS
+echo "100" | ./randomN | ./gnomeS
  
